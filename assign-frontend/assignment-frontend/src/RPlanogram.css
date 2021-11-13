@@ -1,0 +1,64 @@
+
+.App {
+    text-align:start;
+    background-color: rgb(42, 42, 42);
+    min-height: 100vh;
+    display: flex;
+    color: black;
+  }
+.left{
+   color:aqua;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: auto;
+    left: 0;
+
+}
+.right{
+    color:aqua;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: auto;
+    right: 0;
+
+}  
+.right1{
+  margin-top: 3cm;
+  margin-left: 3cm;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: auto;
+  right: 0;
+
+}  
+.rectangle {
+    padding: 20px;
+    margin: 10px;
+    z-index: 1;
+    display:inline-block;
+    width: 17.450;
+    height: 105px;
+    background: rgb(150, 148, 148);
+    color: rgb(255, 255, 255);
+    border-radius: 0.5cm;
+
+  }
+.ol{
+  z-index: 1;
+  display:inline-flex;
+}
+button{
+  margin-top: 1cm;
+}
+label{
+  color: aqua;
+}
